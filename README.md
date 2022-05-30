@@ -22,7 +22,7 @@ przykład:
 ![image](https://user-images.githubusercontent.com/92153501/171050270-062c394a-43b7-4d42-b950-07252b971139.png)
 
 
-## Uwagi końcowe
+## ❗ Uwagi końcowe
 Strona zawiera błędy m.in:
 1.	funkcjonalne m.in. po wybraniu opcji wyświetlania 12 produktów w zakładce Sklep wyświetla się ich znacznie więcej.
 2.	składniowe np. brak spacji przed myślnikiem.
