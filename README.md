@@ -3,7 +3,7 @@
 ![image](https://user-images.githubusercontent.com/92153501/171048715-58c007ff-209f-434a-9988-e1ca5db4a4de.png)
 
 
-## Projekt:
+## Projekt
 Strona: https://go4robot.pl/
 
 Środowisko:
@@ -29,7 +29,7 @@ Strona zawiera błędy m.in:
 
 
 
-## Narzędzia
+## 🛠 Narzędzia
 
 ### Projekt stworzony przy użyciu:
 
@@ -39,6 +39,6 @@ Strona zawiera błędy m.in:
 
 
 
-# Autor
+# 💬 Autor
 
 •	linkedin: https://www.linkedin.com/in/karolina--zakrzewska/
