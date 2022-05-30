@@ -1,0 +1,2952 @@
+<!DOCTYPE html>
+<!-- saved from url=(0246)https://karolina-zakrzewska.atlassian.net/sr/jira.issueviews:searchrequest-fullcontent/temp/SearchRequest.html?jqlQuery=order+by+created+DESC&atl_token=e4e2ba77-1df8-4446-bfdf-2d626d26937d_0981f76f6af9bf2d8f656d0a7531f923ff274f9e_lin&tempMax=1000 -->
+<html class="webkit chrome"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Jira</title>
+    
+            
+        <script>
+window.WRM=window.WRM||{};window.WRM._unparsedData=window.WRM._unparsedData||{};window.WRM._unparsedErrors=window.WRM._unparsedErrors||{};
+WRM._unparsedData["com.atlassian.plugins.atlassian-plugins-webresource-plugin:context-path.context-path"]="\"\"";
+WRM._unparsedData["com.atlassian.plugins.atlassian-plugins-webresource-rest:curl.cross-origin-resources"]="false";
+WRM._unparsedData["jira.webresources:feature-flags.feature-flag-data"]="{\"enabled-feature-keys\":[\"com.atlassian.jira.projects.issuenavigator\",\"connect.no-applinks\",\"nps.survey.inline.dialog\",\"atlassian.aui.raphael.disabled\",\"com.atlassian.jira.projects.ProjectCentricNavigation.Switch\"],\"feature-flag-states\":{\"jira.feature.flag.board.issue.modal.labs\":true,\"com.atlassian.jira.plugins.mail.internal\":false,\"com.atlassian.jira.feature.flag.for.TestFeatureFlagResource\":false,\"jira.feature.rest.single.step.avatar.upload\":true,\"jira.ondemand.maintain.trusted.apps\":true}}";
+WRM._unparsedData["com.atlassian.jira.jira-client-analytics-plugin:analytics-context-provider.client-analytic-descriptors"]="{\"analyticsResource\":{\"jira-core\":{\"events\":{\"issue.comment.added\":{\"trigger\":\"click #issue-comment-add-submit\",\"properties\":{\"comment-length\":\"value.length #issue-comment-add #comment\"}}}}},\"tenantId\":\"efd42b95-7e0c-40df-8044-9ea8939c10d0\",\"aid\":\"61eafcb27ae0dc006ac9dc3b\",\"env\":\"prod\"}";
+WRM._unparsedData["jira.webresources:default-comment-security-level.DefaultCommentSecurityLevelHelpLink"]="{\"extraClasses\":\"default-comment-level-help\",\"title\":\"Commenting on an Issue\",\"url\":\"https://confluence.atlassian.com/display/JIRACORECLOUD/Editing+and+collaborating+on+issues#Editingandcollaboratingonissues-addcommentsCommentingonissues\",\"isLocal\":false}";
+WRM._unparsedData["jira.webresources:key-commands.shortcuts"]="[{\"moduleKey\":\"go-to-dashboard-kb-shortcut\",\"keys\":[[\"g\",\"d\"]],\"context\":\"global\",\"op\":\"goTo\",\"param\":\"/secure/Dashboard.jspa\"},{\"moduleKey\":\"greenhopper-gh-shortcut\",\"keys\":[[\"g\",\"h\"]],\"context\":\"global\",\"op\":\"execute\",\"param\":\"gh.app.globalkeyboardshortcuts.goToAgile();\"},{\"moduleKey\":\"browse-project-kb-shortcut\",\"keys\":[[\"g\",\"p\"]],\"context\":\"global\",\"op\":\"execute\",\"param\":\"var elem = jQuery(\\\"#browse_link\\\");\\n                if (elem.length \u003e 0) {\\n                    window.location.href = elem.attr(\\\"href\\\");\\n                }\"},{\"moduleKey\":\"greenhopper-agile-shortcut\",\"keys\":[[\"g\",\"a\"]],\"context\":\"global\",\"op\":\"execute\",\"param\":\"gh.app.globalkeyboardshortcuts.goToAgile();\"},{\"moduleKey\":\"issue-navigator-kb-shortcut\",\"keys\":[[\"g\",\"i\"]],\"context\":\"global\",\"op\":\"execute\",\"param\":\"var elem = jQuery(\\\"#find_link\\\");\\n                if (elem.length \u003e 0) {\\n                    window.location.href = elem.attr(\\\"href\\\");\\n                }\"},{\"moduleKey\":\"admin.quicksearch.dialog.shortcut\",\"keys\":[[\"g\",\"g\"]],\"context\":\"global\",\"op\":\"execute\",\"param\":\"JIRA.Shifter.show();\"},{\"moduleKey\":\"quicksearch\",\"keys\":[[\"/\"]],\"context\":\"global\",\"op\":\"moveToAndFocus\",\"param\":\"#quickSearchInput, #admin-quick-nav-field\"},{\"moduleKey\":\"create.issue\",\"keys\":[[\"c\"]],\"context\":\"global\",\"op\":\"moveToAndClick\",\"param\":\"#header .create-issue\"},{\"moduleKey\":\"shifter\",\"keys\":[[\".\"]],\"context\":\"global\",\"op\":\"execute\",\"param\":\"JIRA.Shifter.show();\"},{\"moduleKey\":\"help\",\"keys\":[[\"?\"]],\"context\":\"global\",\"op\":\"click\",\"param\":\"#keyshortscuthelp\"}]";
+if(window.WRM._dataArrived)window.WRM._dataArrived();</script>
+<link type="text/css" rel="stylesheet" href="./Jira_files/batch.css" data-wrm-key="_super" data-wrm-batch-type="context" media="all">
+<link type="text/css" rel="stylesheet" href="./Jira_files/com.atlassian.auiplugin_aui-labels.css" data-wrm-key="com.atlassian.auiplugin:aui-labels" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="./Jira_files/jira.webresources_theme-adg3.css" data-wrm-key="jira.webresources:theme-adg3" data-wrm-batch-type="resource" media="all">
+<link type="text/css" rel="stylesheet" href="./Jira_files/jira.webresources_global-static.css" data-wrm-key="jira.webresources:global-static" data-wrm-batch-type="resource" media="all">
+<script type="text/javascript" src="./Jira_files/batch.js.pobrane" data-wrm-key="_super" data-wrm-batch-type="context" data-initially-rendered=""></script><style type="text/css"></style><style type="text/css"></style>
+<script type="text/javascript" src="./Jira_files/jira.webresources_global-static.js.pobrane" data-wrm-key="jira.webresources:global-static" data-wrm-batch-type="resource" data-initially-rendered=""></script>
+<script>
+window.WRM=window.WRM||{};window.WRM._unparsedData=window.WRM._unparsedData||{};window.WRM._unparsedErrors=window.WRM._unparsedErrors||{};
+WRM._unparsedData["_wrmBatchContents"]="{\"js\":{\"_super\":[\"jira.webresources:es6-promise\",\"jira.webresources:promise-polyfill\",\"jira.webresources:usertiming-polyfill\",\"jira.webresources:almond\",\"jira.webresources:almond-analytics\",\"com.atlassian.auiplugin:aui-reset\",\"com.atlassian.auiplugin:aui-page-typography\",\"com.atlassian.auiplugin:aui-avatars\",\"com.atlassian.auiplugin:aui-page-layout\",\"com.atlassian.plugins.atlassian-plugins-webresource-plugin:data\",\"com.atlassian.plugins.atlassian-plugins-webresource-plugin:context-path\",\"com.atlassian.auiplugin:ajs-contextpath\",\"com.atlassian.plugins.jquery:jquery-1.7.2\",\"com.atlassian.plugins.jquery:jquery\",\"com.atlassian.auiplugin:jquery-lib\",\"com.atlassian.auiplugin:jquery-compatibility\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-polyfills-console\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-jquery\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-create-element\",\"com.atlassian.auiplugin:internal-object-assign-4.0.1-index\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-globalize\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-deprecation\",\"com.atlassian.auiplugin:aui-deprecation\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-polyfills-custom-event\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-constants\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-version\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-globals\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-data\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-mutation-observer\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-utils\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-registry\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-lifecycle\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-fix-ie-innerhtml\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-document-observer\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-skate\",\"com.atlassian.auiplugin:internal-tether-0.6.5-tether\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-version\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-prevent-default\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-stop-event\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-index-of\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-contains\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-include\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-toggle-class-name\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-set-visible\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-set-current\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-is-visible\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-is-clipped\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-params\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-populate-parameters\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-log\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-to-init\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-firebug\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-clone\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-alphanum\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-on-text-resize\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-unbind-text-resize\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-escape\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-escape-html\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-filter-by-search\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-debounce\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-unique-id\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-add-id\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-forms\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-setup\",\"com.atlassian.auiplugin:deprecated-legacy-ajs-file\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-format\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-animation\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-blanket\",\"com.atlassian.auiplugin:aui-core\",\"com.atlassian.auiplugin:internal-basic-css\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-vendor-jquery-plugins-jquery-aop\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-drop-down\",\"com.atlassian.auiplugin:dropdown\",\"com.atlassian.auiplugin:icons\",\"com.atlassian.auiplugin:table\",\"com.atlassian.auiplugin:internal-form-css\",\"com.atlassian.auiplugin:internal-message-css\",\"com.atlassian.auiplugin:ajs-gadgets-base\",\"com.atlassian.auiplugin:toolbar\",\"com.atlassian.auiplugin:aui-buttons\",\"com.atlassian.auiplugin:aui-toolbar2\",\"com.atlassian.soy.soy-template-plugin:soy-deps\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-widget\",\"com.atlassian.auiplugin:internal-aui-widget\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-i18n-aui\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-i18n\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-skate\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-navigation\",\"com.atlassian.auiplugin:aui-navigation\",\"com.atlassian.auiplugin:aui-experimental-iconfont\",\"com.atlassian.auiplugin:aui-header-unresponsive\",\"com.atlassian.auiplugin:internal-skatejs-template-html-0.0.0-dist-template-html\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-header-create-header\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-header\",\"com.atlassian.auiplugin:aui-header\",\"com.atlassian.auiplugin:aui-page-header\",\"com.atlassian.auiplugin:aui-page-suite\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-focus-manager\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-key-code\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-layer\",\"com.atlassian.auiplugin:aui-focus-manager\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-layer-manager\",\"com.atlassian.auiplugin:keycode\",\"com.atlassian.auiplugin:aui-layer-manager\",\"com.atlassian.auiplugin:layer\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-alignment\",\"com.atlassian.auiplugin:aui-alignment\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-browser\",\"com.atlassian.auiplugin:internal-aui-browser\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-state\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-dropdown2\",\"com.atlassian.auiplugin:aui-dropdown2\",\"com.atlassian.auiplugin:internal-fancy-file-input-2.0.1-dist-fancy-file-input\",\"com.atlassian.auiplugin:internal-src-js-aui-fancy-file-input\",\"com.atlassian.auiplugin:fancy-file-input\",\"com.atlassian.auiplugin:hotkeys\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-event\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-dialog\",\"com.atlassian.auiplugin:dialog\",\"com.atlassian.auiplugin:internal-css.escape-1.5.0-css-escape\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-inline-dialog\",\"com.atlassian.auiplugin:internal-inline-dialog-common\",\"com.atlassian.auiplugin:inline-dialog\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-template\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-messages\",\"com.atlassian.auiplugin:message\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-tabs\",\"com.atlassian.auiplugin:tabs\",\"com.atlassian.auiplugin:jquery-ui-core-1.8.24-patched\",\"com.atlassian.auiplugin:jquery-ui-core\",\"com.atlassian.auiplugin:internal-jquery-ui-partial\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-jquery-jquery-hotkeys\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-jquery-jquery-moveto\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-vendor-underscorejs-underscore\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-underscore\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-when-i-type\",\"com.atlassian.auiplugin:internal-keyboardshortcuts\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-cookie\",\"com.atlassian.auiplugin:cookie\",\"com.atlassian.auiplugin:template\",\"com.atlassian.auiplugin:event\",\"com.atlassian.auiplugin:internal-ajs-no-context-path\",\"com.atlassian.auiplugin:ajs\",\"com.atlassian.auiplugin:jquery-ui\",\"com.atlassian.plugin.jslibs:jquery.textoverflow-0.7.4\",\"com.atlassian.plugin.jslibs:jquery.pjax-2011.07.10\",\"com.atlassian.plugin.jslibs:jquery.lazyload-1.8.0\",\"com.atlassian.plugin.jslibs:jquery.flot-0.7\",\"com.atlassian.plugin.jslibs:jquery.effects-1.8rc3\",\"com.atlassian.plugin.jslibs:jquery.dragtable-2.0.4\",\"com.atlassian.plugin.jslibs:jquery.serializeobject-0.2\",\"com.atlassian.plugin.jslibs:jquery.scrollintoview-1.8\",\"jira.webresources:jquery\",\"jira.webresources:aui-core-amd-shim\",\"com.atlassian.auiplugin:aui-badge\",\"com.atlassian.auiplugin:aui-lozenge\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-vendor-spin-spin\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-vendor-jquery-jquery-spin\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-spin\",\"com.atlassian.auiplugin:aui-spinner\",\"com.atlassian.auiplugin:aui-experimental-spinner\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-amdify\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-flag\",\"com.atlassian.auiplugin:aui-flag\",\"com.atlassian.plugins.atlassian-plugins-webresource-rest:curl\",\"com.atlassian.plugins.atlassian-plugins-webresource-rest:require-handler-v2\",\"com.atlassian.plugins.atlassian-plugins-webresource-rest:web-resource-manager\",\"com.atlassian.plugin.jslibs:skate-0.12.6\",\"jira.webresources:skate\",\"jira.webresources:icons\",\"jira.webresources:jira-logger\",\"jira.webresources:deprecator\",\"jira.webresources:legacy-namespacing\",\"com.atlassian.auiplugin:ajs-underscorejs\",\"jira.webresources:ajs-underscorejs-amd-shim\",\"jira.webresources:jira-metadata\",\"jira.webresources:aui-extensions\",\"jira.webresources:feature-flags\",\"jira.webresources:jira-events\",\"jira.webresources:jira-formatter\",\"jira.webresources:browser-properties\",\"jira.webresources:top-same-origin-window\",\"jira.webresources:util-lite\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-vendor-backbone-backbone\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-backbone\",\"com.atlassian.auiplugin:ajs-backbone\",\"jira.webresources:ajs-backbone-amd-shim\",\"jira.webresources:number-formatter\",\"jira.webresources:util\",\"jira.webresources:content-retrievers\",\"jira.webresources:list-styles\",\"jira.webresources:inline-layer\",\"jira.webresources:list\",\"jira.webresources:dropdown\",\"jira.webresources:issue-table-adg3\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-vendor-jquery-jquery-tipsy\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-tipsy\",\"com.atlassian.auiplugin:aui-tipsy\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-tooltip\",\"com.atlassian.auiplugin:aui-tooltips\",\"com.atlassian.auiplugin:aui-experimental-tooltips\",\"com.atlassian.plugins.issue-status-plugin:issue-status-resources\",\"jira.webresources:issue-statuses\",\"jira.webresources:issue-table\",\"jira.webresources:select-model\",\"jira.webresources:general-configuration\",\"com.atlassian.auiplugin:aui-experimental-soy-templates\",\"jira.webresources:js-soy-templates\",\"jira.webresources:page-loading-indicator\",\"jira.webresources:messages\",\"jira.webresources:jira-dialog-core\",\"com.atlassian.jira.jira-issue-nav-plugin:issues-api\",\"com.atlassian.jira.jira-issue-nav-plugin:issuenav-legacy\",\"jira.webresources:jira-issuenavigator\",\"jira.webresources:jira-dialog-config\",\"jira.webresources:set-focus\",\"jira.webresources:select-pickers\",\"jira.webresources:jira-analytics-amd\",\"jira.webresources:trigger-custom-event\",\"com.atlassian.jira.jira-client-analytics-plugin:analytics-web-client-library\",\"com.atlassian.jira.jira-client-analytics-plugin:analytics-context-provider\",\"com.atlassian.jira.jira-client-analytics-plugin:analytics-events-transformers\",\"com.atlassian.jira.jira-client-analytics-plugin:analytics-web-client\",\"jira.webresources:shifter\",\"com.atlassian.jira.jira-npmbridge-plugin:atlassian-spa-iframe-amd\",\"com.atlassian.plugins.browser.metrics.browser-metrics-plugin:api\",\"com.atlassian.jira.jira-atlaskit-plugin:sidebar\",\"com.atlassian.jira.jira-atlaskit-plugin:forge\",\"com.atlassian.jira.jira-atlaskit-plugin:container-api\",\"jira.webresources:inline-attach\",\"jira.webresources:dialogs\",\"jira.webresources:default-comment-security-level\",\"jira.webresources:dropdown-select\",\"jira.webresources:user-management\",\"jira.webresources:mentions-base\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-progressive-data-set\",\"com.atlassian.auiplugin:aui-experimental-data-handlers\",\"jira.webresources:data-sets\",\"jira.webresources:mentions-feature\",\"jira.webresources:mentions\",\"jira.webresources:jira-edition\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-banner\",\"com.atlassian.auiplugin:aui-banner\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-trigger\",\"com.atlassian.auiplugin:aui-trigger\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-attributes\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-enforcer\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-inline-dialog2\",\"com.atlassian.auiplugin:aui-inline-dialog2\",\"jira.webresources:keyboard-shortcut-toggle\",\"jira.webresources:assignee-picker\",\"jira.webresources:jira-global\",\"jira.webresources:key-commands\",\"jira.webresources:header\",\"jira.webresources:superbatch-default\",\"_context:_super\"]},\"css\":{\"_super\":[\"jira.webresources:es6-promise\",\"jira.webresources:promise-polyfill\",\"jira.webresources:usertiming-polyfill\",\"jira.webresources:almond\",\"jira.webresources:almond-analytics\",\"com.atlassian.auiplugin:aui-reset\",\"com.atlassian.auiplugin:aui-page-typography\",\"com.atlassian.auiplugin:aui-avatars\",\"com.atlassian.auiplugin:aui-page-layout\",\"com.atlassian.plugins.atlassian-plugins-webresource-plugin:data\",\"com.atlassian.plugins.atlassian-plugins-webresource-plugin:context-path\",\"com.atlassian.auiplugin:ajs-contextpath\",\"com.atlassian.plugins.jquery:jquery-1.7.2\",\"com.atlassian.plugins.jquery:jquery\",\"com.atlassian.auiplugin:jquery-lib\",\"com.atlassian.auiplugin:jquery-compatibility\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-polyfills-console\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-jquery\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-create-element\",\"com.atlassian.auiplugin:internal-object-assign-4.0.1-index\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-globalize\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-deprecation\",\"com.atlassian.auiplugin:aui-deprecation\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-polyfills-custom-event\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-constants\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-version\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-globals\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-data\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-mutation-observer\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-utils\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-registry\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-lifecycle\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-fix-ie-innerhtml\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-document-observer\",\"com.atlassian.auiplugin:internal-skatejs-0.13.17-lib-skate\",\"com.atlassian.auiplugin:internal-tether-0.6.5-tether\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-version\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-prevent-default\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-stop-event\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-index-of\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-contains\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-include\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-toggle-class-name\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-set-visible\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-set-current\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-is-visible\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-is-clipped\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-params\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-populate-parameters\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-log\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-to-init\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-firebug\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-clone\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-alphanum\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-on-text-resize\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-unbind-text-resize\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-escape\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-escape-html\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-filter-by-search\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-debounce\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-unique-id\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-add-id\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-forms\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-setup\",\"com.atlassian.auiplugin:deprecated-legacy-ajs-file\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-format\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-animation\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-blanket\",\"com.atlassian.auiplugin:aui-core\",\"com.atlassian.auiplugin:internal-basic-css\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-vendor-jquery-plugins-jquery-aop\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-drop-down\",\"com.atlassian.auiplugin:dropdown\",\"com.atlassian.auiplugin:icons\",\"com.atlassian.auiplugin:table\",\"com.atlassian.auiplugin:internal-form-css\",\"com.atlassian.auiplugin:internal-message-css\",\"com.atlassian.auiplugin:ajs-gadgets-base\",\"com.atlassian.auiplugin:toolbar\",\"com.atlassian.auiplugin:aui-buttons\",\"com.atlassian.auiplugin:aui-toolbar2\",\"com.atlassian.soy.soy-template-plugin:soy-deps\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-widget\",\"com.atlassian.auiplugin:internal-aui-widget\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-i18n-aui\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-i18n\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-skate\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-navigation\",\"com.atlassian.auiplugin:aui-navigation\",\"com.atlassian.auiplugin:aui-experimental-iconfont\",\"com.atlassian.auiplugin:aui-header-unresponsive\",\"com.atlassian.auiplugin:internal-skatejs-template-html-0.0.0-dist-template-html\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-header-create-header\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-header\",\"com.atlassian.auiplugin:aui-header\",\"com.atlassian.auiplugin:aui-page-header\",\"com.atlassian.auiplugin:aui-page-suite\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-focus-manager\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-key-code\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-layer\",\"com.atlassian.auiplugin:aui-focus-manager\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-layer-manager\",\"com.atlassian.auiplugin:keycode\",\"com.atlassian.auiplugin:aui-layer-manager\",\"com.atlassian.auiplugin:layer\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-alignment\",\"com.atlassian.auiplugin:aui-alignment\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-browser\",\"com.atlassian.auiplugin:internal-aui-browser\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-state\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-dropdown2\",\"com.atlassian.auiplugin:aui-dropdown2\",\"com.atlassian.auiplugin:internal-fancy-file-input-2.0.1-dist-fancy-file-input\",\"com.atlassian.auiplugin:internal-src-js-aui-fancy-file-input\",\"com.atlassian.auiplugin:fancy-file-input\",\"com.atlassian.auiplugin:hotkeys\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-event\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-dialog\",\"com.atlassian.auiplugin:dialog\",\"com.atlassian.auiplugin:internal-css.escape-1.5.0-css-escape\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-inline-dialog\",\"com.atlassian.auiplugin:internal-inline-dialog-common\",\"com.atlassian.auiplugin:inline-dialog\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-template\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-messages\",\"com.atlassian.auiplugin:message\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-tabs\",\"com.atlassian.auiplugin:tabs\",\"com.atlassian.auiplugin:jquery-ui-core-1.8.24-patched\",\"com.atlassian.auiplugin:jquery-ui-core\",\"com.atlassian.auiplugin:internal-jquery-ui-partial\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-jquery-jquery-hotkeys\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-jquery-jquery-moveto\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-vendor-underscorejs-underscore\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-underscore\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-when-i-type\",\"com.atlassian.auiplugin:internal-keyboardshortcuts\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-cookie\",\"com.atlassian.auiplugin:cookie\",\"com.atlassian.auiplugin:template\",\"com.atlassian.auiplugin:event\",\"com.atlassian.auiplugin:internal-ajs-no-context-path\",\"com.atlassian.auiplugin:ajs\",\"com.atlassian.auiplugin:jquery-ui\",\"com.atlassian.plugin.jslibs:jquery.textoverflow-0.7.4\",\"com.atlassian.plugin.jslibs:jquery.pjax-2011.07.10\",\"com.atlassian.plugin.jslibs:jquery.lazyload-1.8.0\",\"com.atlassian.plugin.jslibs:jquery.flot-0.7\",\"com.atlassian.plugin.jslibs:jquery.effects-1.8rc3\",\"com.atlassian.plugin.jslibs:jquery.dragtable-2.0.4\",\"com.atlassian.plugin.jslibs:jquery.serializeobject-0.2\",\"com.atlassian.plugin.jslibs:jquery.scrollintoview-1.8\",\"jira.webresources:jquery\",\"jira.webresources:aui-core-amd-shim\",\"com.atlassian.auiplugin:aui-badge\",\"com.atlassian.auiplugin:aui-lozenge\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-vendor-spin-spin\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-vendor-jquery-jquery-spin\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-spin\",\"com.atlassian.auiplugin:aui-spinner\",\"com.atlassian.auiplugin:aui-experimental-spinner\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-amdify\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-flag\",\"com.atlassian.auiplugin:aui-flag\",\"com.atlassian.plugins.atlassian-plugins-webresource-rest:curl\",\"com.atlassian.plugins.atlassian-plugins-webresource-rest:require-handler-v2\",\"com.atlassian.plugins.atlassian-plugins-webresource-rest:web-resource-manager\",\"com.atlassian.plugin.jslibs:skate-0.12.6\",\"jira.webresources:skate\",\"jira.webresources:icons\",\"jira.webresources:jira-logger\",\"jira.webresources:deprecator\",\"jira.webresources:legacy-namespacing\",\"com.atlassian.auiplugin:ajs-underscorejs\",\"jira.webresources:ajs-underscorejs-amd-shim\",\"jira.webresources:jira-metadata\",\"jira.webresources:aui-extensions\",\"jira.webresources:feature-flags\",\"jira.webresources:jira-events\",\"jira.webresources:jira-formatter\",\"jira.webresources:browser-properties\",\"jira.webresources:top-same-origin-window\",\"jira.webresources:util-lite\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-vendor-backbone-backbone\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-backbone\",\"com.atlassian.auiplugin:ajs-backbone\",\"jira.webresources:ajs-backbone-amd-shim\",\"jira.webresources:number-formatter\",\"jira.webresources:util\",\"jira.webresources:content-retrievers\",\"jira.webresources:list-styles\",\"jira.webresources:inline-layer\",\"jira.webresources:list\",\"jira.webresources:dropdown\",\"jira.webresources:issue-table-adg3\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-vendor-jquery-jquery-tipsy\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-tipsy\",\"com.atlassian.auiplugin:aui-tipsy\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-tooltip\",\"com.atlassian.auiplugin:aui-tooltips\",\"com.atlassian.auiplugin:aui-experimental-tooltips\",\"com.atlassian.plugins.issue-status-plugin:issue-status-resources\",\"jira.webresources:issue-statuses\",\"jira.webresources:issue-table\",\"jira.webresources:select-model\",\"jira.webresources:general-configuration\",\"com.atlassian.auiplugin:aui-experimental-soy-templates\",\"jira.webresources:js-soy-templates\",\"jira.webresources:page-loading-indicator\",\"jira.webresources:messages\",\"jira.webresources:jira-dialog-core\",\"com.atlassian.jira.jira-issue-nav-plugin:issues-api\",\"com.atlassian.jira.jira-issue-nav-plugin:issuenav-legacy\",\"jira.webresources:jira-issuenavigator\",\"jira.webresources:jira-dialog-config\",\"jira.webresources:set-focus\",\"jira.webresources:select-pickers\",\"jira.webresources:jira-analytics-amd\",\"jira.webresources:trigger-custom-event\",\"com.atlassian.jira.jira-client-analytics-plugin:analytics-web-client-library\",\"com.atlassian.jira.jira-client-analytics-plugin:analytics-context-provider\",\"com.atlassian.jira.jira-client-analytics-plugin:analytics-events-transformers\",\"com.atlassian.jira.jira-client-analytics-plugin:analytics-web-client\",\"jira.webresources:shifter\",\"com.atlassian.jira.jira-npmbridge-plugin:atlassian-spa-iframe-amd\",\"com.atlassian.plugins.browser.metrics.browser-metrics-plugin:api\",\"com.atlassian.jira.jira-atlaskit-plugin:sidebar\",\"com.atlassian.jira.jira-atlaskit-plugin:forge\",\"com.atlassian.jira.jira-atlaskit-plugin:container-api\",\"jira.webresources:inline-attach\",\"jira.webresources:dialogs\",\"jira.webresources:default-comment-security-level\",\"jira.webresources:dropdown-select\",\"jira.webresources:user-management\",\"jira.webresources:mentions-base\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-progressive-data-set\",\"com.atlassian.auiplugin:aui-experimental-data-handlers\",\"jira.webresources:data-sets\",\"jira.webresources:mentions-feature\",\"jira.webresources:mentions\",\"jira.webresources:jira-edition\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-banner\",\"com.atlassian.auiplugin:aui-banner\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-trigger\",\"com.atlassian.auiplugin:aui-trigger\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-attributes\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-internal-enforcer\",\"com.atlassian.auiplugin:internal-@atlassian-aui-src-js-aui-inline-dialog2\",\"com.atlassian.auiplugin:aui-inline-dialog2\",\"jira.webresources:keyboard-shortcut-toggle\",\"jira.webresources:assignee-picker\",\"jira.webresources:jira-global\",\"jira.webresources:key-commands\",\"jira.webresources:header\",\"jira.webresources:superbatch-default\",\"_context:_super\"]}}";
+if(window.WRM._dataArrived)window.WRM._dataArrived();</script><script type="text/javascript" charset="utf-8" src="./Jira_files/batch.js(1).pobrane"></script><script type="text/javascript" charset="utf-8" src="./Jira_files/batch.js(2).pobrane"></script>
+
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://karolina-zakrzewska.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body data-aui-version="6.0.5">
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [POR-20]&nbsp;<a href="https://karolina-zakrzewska.atlassian.net/browse/POR-20">Media społecznościowe: brak wyświetlania ikon</a>
+            <span class="subText">
+               Utworzono: 30/maj/22                   &nbsp;Zaktualizowano: 30/maj/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://karolina-zakrzewska.atlassian.net/secure/BrowseProject.jspa?id=10000">GO4ROBOT TESTY</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Ma wpływ na wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersje do poprawienia:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </tbody></table>
+
+<br>
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top" width="30%">
+            Zadanie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="">
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="61eafcb27ae0dc006ac9dc3b" id="word_reporter_61eafcb27ae0dc006ac9dc3b" href="https://karolina-zakrzewska.atlassian.net/secure/ViewProfile.jspa?accountId=61eafcb27ae0dc006ac9dc3b">
+                    karolina.zakrzewska
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="" width="30%">
+                                    Nie przypisano
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-10026-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap="">
+                            bug                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostały koszt:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </tbody></table>
+
+
+
+    <br>
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tbody><tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="./Jira_files/image.gif" height="16" width="16" border="0" alt="Plik PNG">
+                    image-20220530-181313.png &nbsp;&nbsp;&nbsp;
+                                    <img src="./Jira_files/image.gif" height="16" width="16" border="0" alt="Plik PNG">
+                    image-20220530-181439.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10026-value" class="value" bgcolor="#ffffff" width="80%">      0|i00053:
+  </td>
+            </tr>
+            </tbody></table>
+
+    <br>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tbody><tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap="" align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </tbody></table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td id="descriptionArea">
+            <p>Nie wszystkie ikony mediów społecznościowych w każdym miejscu strony są wyświetlane.</p>
+
+<p>Środowisko: Chrome Wersja 102.0.5005.63</p>
+
+<p>System: Windows Home 10</p>
+
+
+
+<p>Są wyświetlane 4 ikony mediów społecznościowych: <a href="https://go4robot.pl/sklep/produkty/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://go4robot.pl/sklep/produkty/</a> </p>
+
+<p><span class="image-wrap" style=""><img src="./Jira_files/image-20220530-181313.png" height="126" width="210" style="border: 0px solid black"></span></p>
+
+<p>Są wyświetlane 2 ikony mediów społecznościowych:</p>
+
+<ol>
+	<li><a href="https://go4robot.pl/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://go4robot.pl/</a></li>
+</ol>
+
+
+<p><span class="image-wrap" style=""><img src="./Jira_files/image-20220530-181439.png" height="158" width="150" style="border: 0px solid black"></span></p>
+
+<p>2. <a href="https://go4robot.pl/blog/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://go4robot.pl/blog/</a> </p>
+
+<p>3. <a href="https://go4robot.pl/o-nas/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://go4robot.pl/o-nas/</a> </p>
+
+<p>4. <a href="https://go4robot.pl/#oferta" title="smart-link" class="external-link" rel="nofollow noreferrer">https://go4robot.pl/#oferta</a> </p>
+            <br>
+        </td>
+    </tr>
+    </tbody></table>
+
+<hr class="fullcontent"><br><br style="page-break-before:always;"><br>
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [POR-19]&nbsp;<a href="https://karolina-zakrzewska.atlassian.net/browse/POR-19">Newsletter: błędny komunikat zgody</a>
+            <span class="subText">
+               Utworzono: 30/maj/22                   &nbsp;Zaktualizowano: 30/maj/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://karolina-zakrzewska.atlassian.net/secure/BrowseProject.jspa?id=10000">GO4ROBOT TESTY</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Ma wpływ na wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersje do poprawienia:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </tbody></table>
+
+<br>
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top" width="30%">
+            Zadanie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="">
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="61eafcb27ae0dc006ac9dc3b" id="word_reporter_61eafcb27ae0dc006ac9dc3b" href="https://karolina-zakrzewska.atlassian.net/secure/ViewProfile.jspa?accountId=61eafcb27ae0dc006ac9dc3b">
+                    karolina.zakrzewska
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="" width="30%">
+                                    Nie przypisano
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-10025-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap="">
+                            bug                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostały koszt:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </tbody></table>
+
+
+
+    <br>
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tbody><tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="./Jira_files/image.gif" height="16" width="16" border="0" alt="Plik PNG">
+                    image-20220530-180855.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10025-value" class="value" bgcolor="#ffffff" width="80%">      0|i0004v:
+  </td>
+            </tr>
+            </tbody></table>
+
+    <br>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tbody><tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap="" align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </tbody></table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td id="descriptionArea">
+            <p>Po wpisaniu adresu email np. <a href="mailto:test@gmail.com" class="external-link" rel="nofollow noreferrer">test@gmail.com</a> i wybraniu opcji wyślij bez zaznaczenia zgód wyświetlany jest poniższy, błędny komunikat:</p>
+
+<p><span class="image-wrap" style=""><img src="./Jira_files/image-20220530-180855.png" height="138" width="466" style="border: 0px solid black"></span></p>
+            <br>
+        </td>
+    </tr>
+    </tbody></table>
+
+<hr class="fullcontent"><br><br style="page-break-before:always;"><br>
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [POR-18]&nbsp;<a href="https://karolina-zakrzewska.atlassian.net/browse/POR-18">Koszyk: checkboxy dostawy nie zaznaczają się</a>
+            <span class="subText">
+               Utworzono: 30/maj/22                   &nbsp;Zaktualizowano: 30/maj/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://karolina-zakrzewska.atlassian.net/secure/BrowseProject.jspa?id=10000">GO4ROBOT TESTY</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Ma wpływ na wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersje do poprawienia:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </tbody></table>
+
+<br>
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top" width="30%">
+            Zadanie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="">
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="61eafcb27ae0dc006ac9dc3b" id="word_reporter_61eafcb27ae0dc006ac9dc3b" href="https://karolina-zakrzewska.atlassian.net/secure/ViewProfile.jspa?accountId=61eafcb27ae0dc006ac9dc3b">
+                    karolina.zakrzewska
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="" width="30%">
+                                    Nie przypisano
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-10024-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap="">
+                            bug                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostały koszt:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </tbody></table>
+
+
+
+    <br>
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tbody><tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="./Jira_files/image.gif" height="16" width="16" border="0" alt="Plik PNG">
+                    image-20220530-180601.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10024-value" class="value" bgcolor="#ffffff" width="80%">      0|i0004n:
+  </td>
+            </tr>
+            </tbody></table>
+
+    <br>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tbody><tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap="" align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </tbody></table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td id="descriptionArea">
+            <p>Checkboxy dostawy po wybraniu zaznaczają się tylko na chwilę.</p>
+
+<p>Środowisko: Chrome Wersja 102.0.5005.63</p>
+
+<p>System: Windows Home 10</p>
+
+
+
+<p>Kroki:</p>
+
+<ol>
+	<li>dodaj produkt do koszyka np. <a href="https://go4robot.pl/sklep/kolorowy-zegarek-na-reke/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://go4robot.pl/sklep/kolorowy-zegarek-na-reke/</a></li>
+</ol>
+
+
+<p>  2. wybierz dostawę np. inpost. </p>
+
+
+
+<p><span class="image-wrap" style=""><img src="./Jira_files/image-20220530-180601.png" height="215" width="346" style="border: 0px solid black"></span></p>
+            <br>
+        </td>
+    </tr>
+    </tbody></table>
+
+<hr class="fullcontent"><br><br style="page-break-before:always;"><br>
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [POR-17]&nbsp;<a href="https://karolina-zakrzewska.atlassian.net/browse/POR-17">FAQ: informacja o dostawie błędny cennik</a>
+            <span class="subText">
+               Utworzono: 30/maj/22                   &nbsp;Zaktualizowano: 30/maj/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://karolina-zakrzewska.atlassian.net/secure/BrowseProject.jspa?id=10000">GO4ROBOT TESTY</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Ma wpływ na wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersje do poprawienia:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </tbody></table>
+
+<br>
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top" width="30%">
+            Zadanie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="">
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="61eafcb27ae0dc006ac9dc3b" id="word_reporter_61eafcb27ae0dc006ac9dc3b" href="https://karolina-zakrzewska.atlassian.net/secure/ViewProfile.jspa?accountId=61eafcb27ae0dc006ac9dc3b">
+                    karolina.zakrzewska
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="" width="30%">
+                                    Nie przypisano
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-10023-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap="">
+                            bug                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostały koszt:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </tbody></table>
+
+
+
+    <br>
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tbody><tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="./Jira_files/image.gif" height="16" width="16" border="0" alt="Plik PNG">
+                    image-20220530-180142.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10023-value" class="value" bgcolor="#ffffff" width="80%">      0|i0004f:
+  </td>
+            </tr>
+            </tbody></table>
+
+    <br>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tbody><tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap="" align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </tbody></table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td id="descriptionArea">
+            <p>FAQ - Często zadawane pytania - zakładka ta dla produktu <a href="http://m.in/" class="external-link" rel="nofollow noreferrer">m.in</a>. zegarka ma niezaktualizowane ceny w porównaniu z tymi z koszyka</p>
+
+<p>Przykładowy produkt:</p>
+
+<p><a href="https://go4robot.pl/sklep/kolorowy-zegarek-na-reke/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://go4robot.pl/sklep/kolorowy-zegarek-na-reke/</a> </p>
+
+<p>Środowisko: Chrome Wersja 102.0.5005.63</p>
+
+<p>System: Windows Home 10</p>
+
+<p><span class="image-wrap" style=""><img src="./Jira_files/image-20220530-180142.png" height="170" width="494" style="border: 0px solid black"></span></p>
+            <br>
+        </td>
+    </tr>
+    </tbody></table>
+
+<hr class="fullcontent"><br><br style="page-break-before:always;"><br>
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [POR-16]&nbsp;<a href="https://karolina-zakrzewska.atlassian.net/browse/POR-16">Sklep: wypoziomowanie tekstu produktów</a>
+            <span class="subText">
+               Utworzono: 30/maj/22                   &nbsp;Zaktualizowano: 30/maj/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://karolina-zakrzewska.atlassian.net/secure/BrowseProject.jspa?id=10000">GO4ROBOT TESTY</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Ma wpływ na wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersje do poprawienia:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </tbody></table>
+
+<br>
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top" width="30%">
+            Zadanie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="">
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="61eafcb27ae0dc006ac9dc3b" id="word_reporter_61eafcb27ae0dc006ac9dc3b" href="https://karolina-zakrzewska.atlassian.net/secure/ViewProfile.jspa?accountId=61eafcb27ae0dc006ac9dc3b">
+                    karolina.zakrzewska
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="" width="30%">
+                                    Nie przypisano
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-10022-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap="">
+                            bug                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostały koszt:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </tbody></table>
+
+
+
+    <br>
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tbody><tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="./Jira_files/image.gif" height="16" width="16" border="0" alt="Plik PNG">
+                    image-20220530-175717.png &nbsp;&nbsp;&nbsp;
+                                    <img src="./Jira_files/image.gif" height="16" width="16" border="0" alt="Plik PNG">
+                    image-20220530-175810.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10022-value" class="value" bgcolor="#ffffff" width="80%">      0|i00047:
+  </td>
+            </tr>
+            </tbody></table>
+
+    <br>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tbody><tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap="" align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </tbody></table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td id="descriptionArea">
+            <p>Fragment produktu, który powinien być poziomowany od dołu, tak aby informacja ta znalazła się w jednej linii kiedy kilka produktów jest obok siebie:</p>
+
+<p><span class="image-wrap" style=""><img src="./Jira_files/image-20220530-175810.png" height="86" width="209" style="border: 0px solid black"></span></p>
+
+<p>Środowisko: Chrome Wersja 102.0.5005.63</p>
+
+<p>System: Windows Home 10</p>
+
+<p><span class="image-wrap" style=""><img src="./Jira_files/image-20220530-175717.png" height="396" width="765" style="border: 0px solid black"></span></p>
+            <br>
+        </td>
+    </tr>
+    </tbody></table>
+
+<hr class="fullcontent"><br><br style="page-break-before:always;"><br>
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [POR-15]&nbsp;<a href="https://karolina-zakrzewska.atlassian.net/browse/POR-15">Sklep: Za dużo produktów</a>
+            <span class="subText">
+               Utworzono: 30/maj/22                   &nbsp;Zaktualizowano: 30/maj/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://karolina-zakrzewska.atlassian.net/secure/BrowseProject.jspa?id=10000">GO4ROBOT TESTY</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Ma wpływ na wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersje do poprawienia:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </tbody></table>
+
+<br>
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top" width="30%">
+            Zadanie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="">
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="61eafcb27ae0dc006ac9dc3b" id="word_reporter_61eafcb27ae0dc006ac9dc3b" href="https://karolina-zakrzewska.atlassian.net/secure/ViewProfile.jspa?accountId=61eafcb27ae0dc006ac9dc3b">
+                    karolina.zakrzewska
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="" width="30%">
+                                    Nie przypisano
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-10021-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap="">
+                            bug                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostały koszt:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </tbody></table>
+
+
+
+    <br>
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tbody><tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="./Jira_files/image.gif" height="16" width="16" border="0" alt="Plik PNG">
+                    image-20220530-174904.png &nbsp;&nbsp;&nbsp;
+                                    <img src="./Jira_files/image.gif" height="16" width="16" border="0" alt="Plik PNG">
+                    image-20220530-175404.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10021-value" class="value" bgcolor="#ffffff" width="80%">      0|i0003z:
+  </td>
+            </tr>
+            </tbody></table>
+
+    <br>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tbody><tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap="" align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </tbody></table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td id="descriptionArea">
+            <p>Dla domyślnego linku: <a href="https://go4robot.pl/sklep/produkty/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://go4robot.pl/sklep/produkty/</a> i domyślen konfiguracji <b>pokaż na stronie 12</b> pokazywanych jest 3 (wiersze) x 9 (kolumny)=27 produktów.</p>
+
+<p>Środowisko: Chrome Wersja 102.0.5005.63</p>
+
+<p>System: Windows Home 10</p>
+
+<p><span class="image-wrap" style=""><img src="./Jira_files/image-20220530-174904.png" height="332" width="1048" style="border: 0px solid black"></span></p>
+
+<p><b>Kroki:</b></p>
+
+<p>Opcja 1</p>
+
+<p>1-&gt;2</p>
+
+<p>Opcja 2 </p>
+
+<p>1-&gt;3</p>
+
+<p><span class="image-wrap" style=""><img src="./Jira_files/image-20220530-175404.png" height="74" width="256" style="border: 0px solid black"></span></p>
+            <br>
+        </td>
+    </tr>
+    </tbody></table>
+
+<hr class="fullcontent"><br><br style="page-break-before:always;"><br>
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [POR-14]&nbsp;<a href="https://karolina-zakrzewska.atlassian.net/browse/POR-14">Sklep: Brak opcji pokaż wszystkie produkty</a>
+            <span class="subText">
+               Utworzono: 30/maj/22                   &nbsp;Zaktualizowano: 30/maj/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://karolina-zakrzewska.atlassian.net/secure/BrowseProject.jspa?id=10000">GO4ROBOT TESTY</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Ma wpływ na wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersje do poprawienia:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </tbody></table>
+
+<br>
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top" width="30%">
+            Zadanie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="">
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="61eafcb27ae0dc006ac9dc3b" id="word_reporter_61eafcb27ae0dc006ac9dc3b" href="https://karolina-zakrzewska.atlassian.net/secure/ViewProfile.jspa?accountId=61eafcb27ae0dc006ac9dc3b">
+                    karolina.zakrzewska
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="" width="30%">
+                                    Nie przypisano
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-10020-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap="">
+                            bug                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostały koszt:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </tbody></table>
+
+
+
+    <br>
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tbody><tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="./Jira_files/image.gif" height="16" width="16" border="0" alt="Plik PNG">
+                    image-20220530-174420.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10020-value" class="value" bgcolor="#ffffff" width="80%">      0|i0003r:
+  </td>
+            </tr>
+            </tbody></table>
+
+    <br>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tbody><tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap="" align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </tbody></table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td id="descriptionArea">
+            <p>Brak opcji wszystko dla zakładki Sklep: <a href="https://go4robot.pl/sklep/produkty/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://go4robot.pl/sklep/produkty/</a>  w dostępnych opcjach.</p>
+
+<p>Środowisko: Chrome Wersja 102.0.5005.63</p>
+
+<p>System: Windows Home 10</p>
+
+<p><span class="image-wrap" style=""><img src="./Jira_files/image-20220530-174420.png" height="670" width="282" style="border: 0px solid black"></span></p>
+            <br>
+        </td>
+    </tr>
+    </tbody></table>
+
+<hr class="fullcontent"><br><br style="page-break-before:always;"><br>
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [POR-13]&nbsp;<a href="https://karolina-zakrzewska.atlassian.net/browse/POR-13">Koszyk: duplikowanie elementów przy usuwaniu</a>
+            <span class="subText">
+               Utworzono: 30/maj/22                   &nbsp;Zaktualizowano: 30/maj/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://karolina-zakrzewska.atlassian.net/secure/BrowseProject.jspa?id=10000">GO4ROBOT TESTY</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Ma wpływ na wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersje do poprawienia:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </tbody></table>
+
+<br>
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top" width="30%">
+            Zadanie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="">
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="61eafcb27ae0dc006ac9dc3b" id="word_reporter_61eafcb27ae0dc006ac9dc3b" href="https://karolina-zakrzewska.atlassian.net/secure/ViewProfile.jspa?accountId=61eafcb27ae0dc006ac9dc3b">
+                    karolina.zakrzewska
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="" width="30%">
+                                    Nie przypisano
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-10019-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap="">
+                            bug, duplicate                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostały koszt:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </tbody></table>
+
+
+
+    <br>
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tbody><tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="./Jira_files/image.gif" height="16" width="16" border="0" alt="Plik PNG">
+                    image-20220530-174025.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10019-value" class="value" bgcolor="#ffffff" width="80%">      0|i0003j:
+  </td>
+            </tr>
+            </tbody></table>
+
+    <br>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tbody><tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap="" align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </tbody></table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td id="descriptionArea">
+            <p>Po wybraniu opcji usuń (krzyżyk ze screena) w koszyku niezależnie od ilości elementów są one wyświetlane w sposób zduplikowany , który zależy prawdopodobnie od ilości kliknięć.</p>
+
+<p>Środowisko: Chrome Wersja 102.0.5005.63</p>
+
+<p>System: Windows Home 10</p>
+
+<p><span class="image-wrap" style=""><img src="./Jira_files/image-20220530-174025.png" height="249" width="846" style="border: 0px solid black"></span></p>
+            <br>
+        </td>
+    </tr>
+    </tbody></table>
+
+<hr class="fullcontent"><br><br style="page-break-before:always;"><br>
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [POR-12]&nbsp;<a href="https://karolina-zakrzewska.atlassian.net/browse/POR-12">Koszyk: duplikowanie elementów</a>
+            <span class="subText">
+               Utworzono: 30/maj/22                   &nbsp;Zaktualizowano: 30/maj/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://karolina-zakrzewska.atlassian.net/secure/BrowseProject.jspa?id=10000">GO4ROBOT TESTY</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Ma wpływ na wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersje do poprawienia:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </tbody></table>
+
+<br>
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top" width="30%">
+            Zadanie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="">
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="61eafcb27ae0dc006ac9dc3b" id="word_reporter_61eafcb27ae0dc006ac9dc3b" href="https://karolina-zakrzewska.atlassian.net/secure/ViewProfile.jspa?accountId=61eafcb27ae0dc006ac9dc3b">
+                    karolina.zakrzewska
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="" width="30%">
+                                    Nie przypisano
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-10018-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap="">
+                            bug, duplicate                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostały koszt:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </tbody></table>
+
+
+
+    <br>
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tbody><tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="./Jira_files/image.gif" height="16" width="16" border="0" alt="Plik PNG">
+                    image-20220530-173442.png &nbsp;&nbsp;&nbsp;
+                                    <img src="./Jira_files/image.gif" height="16" width="16" border="0" alt="Plik PNG">
+                    image-20220530-173558.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10018-value" class="value" bgcolor="#ffffff" width="80%">      0|i0003b:
+  </td>
+            </tr>
+            </tbody></table>
+
+    <br>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tbody><tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap="" align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </tbody></table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td id="descriptionArea">
+            <p>Po dodaniu do koszyka np. 2 poniższych produktów  dodania reklamowanego produktu (1 na screenie) całość duplikuje się (patrz screen efekt).</p>
+
+<p>Środowisko: Chrome Wersja 102.0.5005.63</p>
+
+<p>System: Windows Home 10</p>
+
+
+
+<p>Kroki do odtworzenia:</p>
+
+<p>Dodaj produkty jak na poniższym screenie</p>
+
+<p>Dodaj produkt z 1 na screenie</p>
+
+<p><span class="image-wrap" style=""><img src="./Jira_files/image-20220530-173442.png" height="610" width="880" style="border: 0px solid black"></span></p>
+
+
+
+<p>efekt:</p>
+
+<p><span class="image-wrap" style=""><img src="./Jira_files/image-20220530-173558.png" height="570" width="382" style="border: 0px solid black"></span></p>
+            <br>
+        </td>
+    </tr>
+    </tbody></table>
+
+<hr class="fullcontent"><br><br style="page-break-before:always;"><br>
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [POR-11]&nbsp;<a href="https://karolina-zakrzewska.atlassian.net/browse/POR-11">Koszyk: tekst produktów wychodzi poza pole</a>
+            <span class="subText">
+               Utworzono: 30/maj/22                   &nbsp;Zaktualizowano: 30/maj/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://karolina-zakrzewska.atlassian.net/secure/BrowseProject.jspa?id=10000">GO4ROBOT TESTY</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Ma wpływ na wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersje do poprawienia:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </tbody></table>
+
+<br>
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top" width="30%">
+            Zadanie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="">
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="61eafcb27ae0dc006ac9dc3b" id="word_reporter_61eafcb27ae0dc006ac9dc3b" href="https://karolina-zakrzewska.atlassian.net/secure/ViewProfile.jspa?accountId=61eafcb27ae0dc006ac9dc3b">
+                    karolina.zakrzewska
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="" width="30%">
+                                    Nie przypisano
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-10017-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap="">
+                            bug                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostały koszt:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </tbody></table>
+
+
+
+    <br>
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tbody><tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="./Jira_files/image.gif" height="16" width="16" border="0" alt="Plik PNG">
+                    image-20220530-172901.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10017-value" class="value" bgcolor="#ffffff" width="80%">      0|i00033:
+  </td>
+            </tr>
+            </tbody></table>
+
+    <br>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tbody><tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap="" align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </tbody></table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td id="descriptionArea">
+            <p>Po dodaniu sprawdzeniu koszyka z dodanym jakimkolwiek produktem reklamowane produkty nie mają prawidłowo zawijanego tekstu w obrębie ich pola.</p>
+
+<p>Środowisko: Chrome Wersja 102.0.5005.63</p>
+
+<p>System: Windows Home 10</p>
+
+<p><span class="image-wrap" style=""><img src="./Jira_files/image-20220530-172901.png" height="653" width="480" style="border: 0px solid black"></span></p>
+            <br>
+        </td>
+    </tr>
+    </tbody></table>
+
+<hr class="fullcontent"><br><br style="page-break-before:always;"><br>
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [POR-10]&nbsp;<a href="https://karolina-zakrzewska.atlassian.net/browse/POR-10">Koszyk: wyświetlanie zduplikowanych elementów EN</a>
+            <span class="subText">
+               Utworzono: 30/maj/22                   &nbsp;Zaktualizowano: 30/maj/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://karolina-zakrzewska.atlassian.net/secure/BrowseProject.jspa?id=10000">GO4ROBOT TESTY</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Ma wpływ na wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersje do poprawienia:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </tbody></table>
+
+<br>
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top" width="30%">
+            Zadanie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="">
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="61eafcb27ae0dc006ac9dc3b" id="word_reporter_61eafcb27ae0dc006ac9dc3b" href="https://karolina-zakrzewska.atlassian.net/secure/ViewProfile.jspa?accountId=61eafcb27ae0dc006ac9dc3b">
+                    karolina.zakrzewska
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="" width="30%">
+                                    Nie przypisano
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-10016-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap="">
+                            bug, duplicate                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostały koszt:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </tbody></table>
+
+
+
+    <br>
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tbody><tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="./Jira_files/image.gif" height="16" width="16" border="0" alt="Plik PNG">
+                    image-20220530-171912.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10016-value" class="value" bgcolor="#ffffff" width="80%">      0|i0002v:
+  </td>
+            </tr>
+            </tbody></table>
+
+    <br>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tbody><tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap="" align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </tbody></table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td id="descriptionArea">
+            <p>Po dodaniu do koszyka np. <a href="https://go4robot.pl/sklep/cross-the-road-stworz-z-nami-wlasna-wersje-klasycznej-gry/" class="external-link" rel="nofollow noreferrer">https://go4robot.pl/sklep/cross-the-road-stworz-z-nami-wlasna-wersje-klasycznej-gry/</a> , zmianie ilości tego produktu na 100 i zaktualizowaniu koszyka elementy duplikują się w punkcie 1 (tu po angielsku duplikat) i 2. Zamówienie przechodzi poprawnie z ilością 100 a nie 200 jak jest wyświetlane. </p>
+
+<p>Środowisko: Chrome Wersja 102.0.5005.63</p>
+
+<p>System: Windows Home 10</p>
+
+
+
+<p><span class="image-wrap" style=""><img src="./Jira_files/image-20220530-171912.png" height="653" width="480" style="border: 0px solid black"></span></p>
+            <br>
+        </td>
+    </tr>
+    </tbody></table>
+
+<hr class="fullcontent"><br><br style="page-break-before:always;"><br>
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [POR-9]&nbsp;<a href="https://karolina-zakrzewska.atlassian.net/browse/POR-9">Blog: Brak linku dla postu</a>
+            <span class="subText">
+               Utworzono: 30/maj/22                   &nbsp;Zaktualizowano: 30/maj/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://karolina-zakrzewska.atlassian.net/secure/BrowseProject.jspa?id=10000">GO4ROBOT TESTY</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Ma wpływ na wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersje do poprawienia:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </tbody></table>
+
+<br>
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top" width="30%">
+            Zadanie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="">
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="61eafcb27ae0dc006ac9dc3b" id="word_reporter_61eafcb27ae0dc006ac9dc3b" href="https://karolina-zakrzewska.atlassian.net/secure/ViewProfile.jspa?accountId=61eafcb27ae0dc006ac9dc3b">
+                    karolina.zakrzewska
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="" width="30%">
+                                    Nie przypisano
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-10015-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap="">
+                            bug, link                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostały koszt:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </tbody></table>
+
+
+
+    <br>
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tbody><tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="./Jira_files/image.gif" height="16" width="16" border="0" alt="Plik PNG">
+                    image-20220530-170104.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10015-value" class="value" bgcolor="#ffffff" width="80%">      0|i0002n:
+  </td>
+            </tr>
+            </tbody></table>
+
+    <br>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tbody><tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap="" align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </tbody></table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td id="descriptionArea">
+            <p>Brak linku: &nbsp;<a href="https://go4robot.pl/blog/roboty-na-pyrkon/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://go4robot.pl/blog/roboty-na-pyrkon/</a></p>
+
+<p>Środowisko: Chrome Wersja 102.0.5005.63</p>
+
+<p>System: Windows Home 10</p>
+
+<p><span class="image-wrap" style=""><img src="./Jira_files/image-20220530-170104.png" height="173" width="479" style="border: 0px solid black"></span></p>
+            <br>
+        </td>
+    </tr>
+    </tbody></table>
+
+<hr class="fullcontent"><br><br style="page-break-before:always;"><br>
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [POR-8]&nbsp;<a href="https://karolina-zakrzewska.atlassian.net/browse/POR-8">Blog: Błąd w nazewnictwie postu</a>
+            <span class="subText">
+               Utworzono: 30/maj/22                   &nbsp;Zaktualizowano: 30/maj/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://karolina-zakrzewska.atlassian.net/secure/BrowseProject.jspa?id=10000">GO4ROBOT TESTY</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Ma wpływ na wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersje do poprawienia:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </tbody></table>
+
+<br>
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top" width="30%">
+            Zadanie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="">
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="61eafcb27ae0dc006ac9dc3b" id="word_reporter_61eafcb27ae0dc006ac9dc3b" href="https://karolina-zakrzewska.atlassian.net/secure/ViewProfile.jspa?accountId=61eafcb27ae0dc006ac9dc3b">
+                    karolina.zakrzewska
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="" width="30%">
+                                    Nie przypisano
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-10014-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap="">
+                            bug, text                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostały koszt:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </tbody></table>
+
+
+
+    <br>
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tbody><tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="./Jira_files/image.gif" height="16" width="16" border="0" alt="Plik PNG">
+                    image-20220530-165603.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10014-value" class="value" bgcolor="#ffffff" width="80%">      0|i0002f:
+  </td>
+            </tr>
+            </tbody></table>
+
+    <br>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tbody><tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap="" align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </tbody></table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td id="descriptionArea">
+            <p>Błąd w nazewnictwie postu ‘Festiwal Technologi Leszno’ na blogu <a href="https://go4robot.pl/blog/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://go4robot.pl/blog/</a></p>
+
+<p>Tekst do zaktualizowania (Technologii 2 „i”:</p>
+
+<p><del>Festiwal Technologi Leszno</del>-&gt; Festiwal Technologii Leszno</p>
+
+<p><a href="https://go4robot.pl/blog/festiwal-technologi-leszno/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://go4robot.pl/blog/festiwal-technologi-leszno/</a> </p>
+
+<p>Środowisko: Chrome Wersja 102.0.5005.63</p>
+
+<p>System: Windows Home 10</p>
+
+<p><span class="image-wrap" style=""><img src="./Jira_files/image-20220530-165603.png" height="492" width="297" style="border: 0px solid black"></span></p>
+            <br>
+        </td>
+    </tr>
+    </tbody></table>
+
+<hr class="fullcontent"><br><br style="page-break-before:always;"><br>
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [POR-7]&nbsp;<a href="https://karolina-zakrzewska.atlassian.net/browse/POR-7">Blog: Błąd w nazewnictwie postu</a>
+            <span class="subText">
+               Utworzono: 30/maj/22                   &nbsp;Zaktualizowano: 30/maj/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://karolina-zakrzewska.atlassian.net/secure/BrowseProject.jspa?id=10000">GO4ROBOT TESTY</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Ma wpływ na wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersje do poprawienia:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </tbody></table>
+
+<br>
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top" width="30%">
+            Zadanie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="">
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="61eafcb27ae0dc006ac9dc3b" id="word_reporter_61eafcb27ae0dc006ac9dc3b" href="https://karolina-zakrzewska.atlassian.net/secure/ViewProfile.jspa?accountId=61eafcb27ae0dc006ac9dc3b">
+                    karolina.zakrzewska
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="" width="30%">
+                                    Nie przypisano
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-10013-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap="">
+                            bug, text                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostały koszt:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </tbody></table>
+
+
+
+    <br>
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tbody><tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="./Jira_files/image.gif" height="16" width="16" border="0" alt="Plik PNG">
+                    image-20220530-165059.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10013-value" class="value" bgcolor="#ffffff" width="80%">      0|i00027:
+  </td>
+            </tr>
+            </tbody></table>
+
+    <br>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tbody><tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap="" align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </tbody></table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td id="descriptionArea">
+            <p>Błąd w nazewnictwie postu ‘Color Run- bieg bez liczenia czasu’na blogu <a href="https://go4robot.pl/blog/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://go4robot.pl/blog/</a></p>
+
+<p>Tekst do zaktualizowania (spacja przed i po myślniku):</p>
+
+<p><del>Color Run</del> bieg bez liczenia czasu- -&gt; <b>Color Run - bieg bez liczenia czasu</b> </p>
+
+<p>Link do postu: <a href="https://go4robot.pl/blog/color-run-bieg-bez-liczenia-czasu/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://go4robot.pl/blog/color-run-bieg-bez-liczenia-czasu/</a> </p>
+
+
+
+<p>Środowisko: Chrome Wersja 102.0.5005.63</p>
+
+<p>System: Windows Home 10</p>
+
+
+
+<p><span class="image-wrap" style=""><img src="./Jira_files/image-20220530-165059.png" height="507" width="329" style="border: 0px solid black"></span></p>
+            <br>
+        </td>
+    </tr>
+    </tbody></table>
+
+<hr class="fullcontent"><br><br style="page-break-before:always;"><br>
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [POR-4]&nbsp;<a href="https://karolina-zakrzewska.atlassian.net/browse/POR-4">Blog: Brak widocznej grafiki dla postu</a>
+            <span class="subText">
+               Utworzono: 15/maj/22                   &nbsp;Zaktualizowano: 30/maj/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Do zrobienia</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://karolina-zakrzewska.atlassian.net/secure/BrowseProject.jspa?id=10000">GO4ROBOT TESTY</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Ma wpływ na wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersje do poprawienia:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </tbody></table>
+
+<br>
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top" width="30%">
+            Zadanie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="">
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%">
+                                        
+                
+        
+            <a class="user-hover" rel="61eafcb27ae0dc006ac9dc3b" id="word_reporter_61eafcb27ae0dc006ac9dc3b" href="https://karolina-zakrzewska.atlassian.net/secure/ViewProfile.jspa?accountId=61eafcb27ae0dc006ac9dc3b">
+                    karolina.zakrzewska
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap="" width="30%">
+                                    Nie przypisano
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap="">
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-10010-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap="">
+                            bug, image                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostały koszt:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap="" width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </tbody></table>
+
+
+
+    <br>
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tbody><tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="./Jira_files/image.gif" height="16" width="16" border="0" alt="Plik PNG">
+                    image-20220530-163932.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10010-value" class="value" bgcolor="#ffffff" width="80%">      0|i0001j:
+  </td>
+            </tr>
+            </tbody></table>
+
+    <br>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tbody><tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap="" align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </tbody></table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tbody><tr>
+        <td id="descriptionArea">
+            <p>Nie wczytuje się grafika z rozszerzeniem webp dla postu '10 najlepszych prezentów edukacyjnych na komunię' na blogu <a href="https://go4robot.pl/blog/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://go4robot.pl/blog/</a> </p>
+
+
+
+<p>Link do zaktualizowania: <a href="https://go4robot.pl/storage/thumbnails/data/blog/111/450-450/edukacyjne-prezenty-na-komunie-min-2.webp" class="external-link" rel="nofollow noreferrer">https://go4robot.pl/storage/thumbnails/data/blog/111/450-450/edukacyjne-prezenty-na-komunie-min-2.webp</a> </p>
+
+<p>Środowisko: Chrome Wersja 102.0.5005.63</p>
+
+<p>System: Windows Home 10</p>
+
+
+
+<p><span class="image-wrap" style=""><img src="./Jira_files/image-20220530-163932.png" height="523" width="326" style="border: 0px solid black"></span></p>
+            <br>
+        </td>
+    </tr>
+    </tbody></table>
+
+<hr class="fullcontent"><br><br style="page-break-before:always;"><br>Wygenerowane (Mon May 30 18:41:39 UTC 2022) przez karolina.zakrzewska z użyciem systemu Jira 1001.0.0-SNAPSHOT#100198-sha1:3a5738ac247a7855b0bd37da33e5da74b22341d6.
+
+
+</body></html>
