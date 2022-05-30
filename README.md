@@ -12,7 +12,7 @@ Chrome Wersja 102.0.5005.63
 
 Windows 10 Home
 
-## Zgłoszenia błędów
+## 📓 Zgłoszenia błędów
 [Jira.html ](https://github.com/KarolinaZakrzewska/GO4ROBOT/blob/3805331b4495b798e2994e48870169e7b8f8b724/Jira.html)
 
 
