@@ -17,12 +17,12 @@ https://github.com/KarolinaZakrzewska/GO4ROBOT_JIRA_MANUAL_TESTING/blob/main/GO4
 
 **przykład:**
 
-![image](https://user-images.githubusercontent.com/92153501/174472425-57f50db5-418a-4b35-8a62-b74c29f90df0.png)
+![image](https://user-images.githubusercontent.com/92153501/174473539-244aef72-f6cd-4fd6-b813-378c71bff81d.png)
 
-**załączniki:**
 
-![image](https://user-images.githubusercontent.com/92153501/174472438-45ff1997-2020-4f22-bef1-eab682857e88.png)
-![image](https://user-images.githubusercontent.com/92153501/174472445-96b75b49-698a-4962-8cce-37075c775784.png)
+
+
+
 
 
 
