@@ -18,8 +18,15 @@ Windows 10 Home
 
 [Jira_files.zip](https://github.com/KarolinaZakrzewska/GO4ROBOT/blob/3805331b4495b798e2994e48870169e7b8f8b724/Jira_files.zip)
 
-przykład:
-![image](https://user-images.githubusercontent.com/92153501/174472362-91b8c7be-1dda-4e09-811b-6abf9608141d.png)
+**przykład:**
+
+![image](https://user-images.githubusercontent.com/92153501/174472425-57f50db5-418a-4b35-8a62-b74c29f90df0.png)
+
+**załączniki:**
+
+![image](https://user-images.githubusercontent.com/92153501/174472438-45ff1997-2020-4f22-bef1-eab682857e88.png)
+![image](https://user-images.githubusercontent.com/92153501/174472445-96b75b49-698a-4962-8cce-37075c775784.png)
+
 
 
 ## ❗ Uwagi końcowe
