@@ -19,13 +19,13 @@ Windows 10 Home
 [Jira_files.zip](https://github.com/KarolinaZakrzewska/GO4ROBOT/blob/3805331b4495b798e2994e48870169e7b8f8b724/Jira_files.zip)
 
 przykład:
-![image](https://user-images.githubusercontent.com/92153501/171050270-062c394a-43b7-4d42-b950-07252b971139.png)
+![image](https://user-images.githubusercontent.com/92153501/174472362-91b8c7be-1dda-4e09-811b-6abf9608141d.png)
 
 
 ## ❗ Uwagi końcowe
 Strona zawiera błędy m.in:
-1.	funkcjonalne m.in. po wybraniu opcji wyświetlania 12 produktów w zakładce Sklep wyświetla się ich znacznie więcej.
-2.	składniowe np. brak spacji przed myślnikiem.
+1.	Funkcjonalne m.in. po wybraniu opcji wyświetlania 12 produktów w zakładce Sklep wyświetla się ich znacznie więcej.
+2.	Składniowe np. brak spacji przed myślnikiem.
 
 
 
