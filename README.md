@@ -1,4 +1,4 @@
-# GO4ROBOT Manual Testing Jira
+# GO4ROBOT - Manual Testing Jira
 
 ![image](https://user-images.githubusercontent.com/92153501/171048715-58c007ff-209f-434a-9988-e1ca5db4a4de.png)
 
@@ -8,7 +8,7 @@ Website: https://go4robot.pl/
 
 Environment: Chrome Version 102.0.5005.63, Windows 10 Home
 
-## 📓 Bug reports:
+## 📓 Bug reports
 https://github.com/KarolinaZakrzewska/GO4ROBOT_JIRA_MANUAL_TESTING/blob/main/GO4ROBOT_Jira_Bugs.pdf 
 
 **example:**
